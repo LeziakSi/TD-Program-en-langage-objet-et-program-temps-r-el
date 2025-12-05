@@ -1,4 +1,4 @@
 @echo off
-cd "c:\Users\jasie\OneDrive\Escritorio\TD Program en langage objet et program temps réel"
-py "jeu_pixel_boss.py"
+cd /d "%~dp0"
+"C:\Program Files\Python311\python.exe" "%~dp0main.py"
 pause
